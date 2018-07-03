@@ -11,18 +11,4 @@ const db = new Sequelize('test1', 'postgres', 'demo', {
     password: {type:Sequelize.STRING,allowNull: false}
   });
 
-  /*db.sync({force : true}).then(() => {
-      User.create({
-          email: 'bana@gmail.com',
-          password: '1234'
-      })
-  })*/
-  
-//   User.create({
-//     email: 'eana@gmail.com',
-//     password: '1234'
-// })
-
-
-
-  exports = module.exports = {User}
+exports = module.exports = {User}
